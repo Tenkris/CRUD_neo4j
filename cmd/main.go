@@ -52,4 +52,5 @@ func main() {
 		log.Fatalf("Failed to delete person: %v", err)
 	}
 	log.Printf("Deleted person with ID %d\n", person.ID)
+	fmt.Println("TEN")
 }
